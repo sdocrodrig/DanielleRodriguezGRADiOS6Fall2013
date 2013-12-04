@@ -65,6 +65,17 @@
           }
 }
 -(IBAction)unwindToMAD:(UIStoryboardSegue *)unwindSegue {
+    _streetNameOut.text=nil;
+    _phoneNoOut.text=nil;
+    _personOut.text=nil;
+    _organizationEmblem.image=nil;
+    _organizationQuestion.text=nil;
+    _labelToPass.text=nil;
+    self.hiddenSocialSecurityButton.hidden=YES;
+    self.hiddenDWSButton.hidden=YES;
+    self.hiddenDHSButton.hidden=YES;
+    self.hiddenDHHSButton.hidden=YES;
+    self.hiddenRedwoodButton.hidden=YES;
 }
 
 

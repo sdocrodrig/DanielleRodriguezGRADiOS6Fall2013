@@ -8,8 +8,6 @@
 
 @interface docViewController ()
 
-@property (nonatomic, strong)IBOutlet UISlider *slider;
-
 @end
 
 @implementation docViewController
@@ -47,6 +45,7 @@
     if([orgTitleTrigger rangeOfString:@"Social Security Administration"].location !=NSNotFound)
         {
             self.imageView.animationImages = @[[UIImage imageNamed:@"I-94.png"], [UIImage imageNamed:@"EIC.png"], [UIImage imageNamed:@"dmv.png"]];
+            _headerView.image=[UIImage imageNamed:@"SocialSecurity_Header.png"];
             
             
         }
@@ -71,7 +70,7 @@
     if([orgTitleTrigger rangeOfString:@"Redwood Health Clinic"].location !=NSNotFound)
     {
         self.imageView.animationImages = @[[UIImage imageNamed:@"dmv.png"], [UIImage imageNamed:@"Medicaid.png"]];
-        _imageView.image=[UIImage imageNamed:@"healthclinicappt.png"];
+        _headerView.image=[UIImage imageNamed:@"healthclinicappt.png"];
     }
 
     self.imageView.animationDuration = 7.0;
@@ -120,6 +119,24 @@
     picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     [self presentViewController:picker animated:YES completion:NULL];
     
+}
+
+-(void)highlightName{
+    if ((self.imageView.image=[UIImage imageNamed:@"dmv.png"])){
+        _stateID.textColor=[UIColor redColor];
+    }
+    else if ((self.imageView.image=[UIImage imageNamed:@"I-94.png"])){
+        _i94.textColor=[UIColor redColor];
+    }
+    else if ((self.imageView.image=[UIImage imageNamed:@"SSN.png"])){
+        _socialSecurityCard.textColor=[UIColor redColor];
+    }
+    else if ((self.imageView.image=[UIImage imageNamed:@"Medicaid.png"])){
+        _medicareCard.textColor=[UIColor redColor];
+    }
+    else if ((self.imageView.image=[UIImage imageNamed:@"EIC.png"])){
+        _EIN.textColor=[UIColor redColor];
+    }
 }
 
 

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		11092C421831F5DA0060C652 /* UHealthCareEmblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C411831F5DA0060C652 /* UHealthCareEmblem.png */; };
 		11092C441831F5E70060C652 /* DepartmentOfHealthEmblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C431831F5E70060C652 /* DepartmentOfHealthEmblem.png */; };
-		11092C461831F5F00060C652 /* MedicaidEmblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C451831F5F00060C652 /* MedicaidEmblem.png */; };
 		11092C481831F6030060C652 /* dwsEmblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C471831F6030060C652 /* dwsEmblem.png */; };
 		11092C4A1831F6140060C652 /* socialSecurityEmblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C491831F6140060C652 /* socialSecurityEmblem.png */; };
 		11092C5318327F4C0060C652 /* TB Clinic Meds (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C5218327F4C0060C652 /* TB Clinic Meds (1).png */; };
@@ -32,6 +31,8 @@
 		119099D91831773500695B26 /* ModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 119099D81831773500695B26 /* ModelData.m */; };
 		119099DF1831DCCE00695B26 /* IRCInternIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 119099DE1831DCCE00695B26 /* IRCInternIcon.png */; };
 		119099E31831DD6700695B26 /* IRCInternIconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 119099E21831DD6700695B26 /* IRCInternIconSmall.png */; };
+		11D3C035184ED5C4007C8CEE /* MedicaidEmblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D3C034184ED5C4007C8CEE /* MedicaidEmblem.png */; };
+		11D3C037184ED980007C8CEE /* SocialSecurity_Header.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D3C036184ED980007C8CEE /* SocialSecurity_Header.png */; };
 		11D99C95182F70EB00AE05F7 /* EIC.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D99C94182F70EB00AE05F7 /* EIC.png */; };
 		11D99C97182F70F100AE05F7 /* dmv.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D99C96182F70F100AE05F7 /* dmv.png */; };
 		11D99C99182F70F600AE05F7 /* I-94.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D99C98182F70F600AE05F7 /* I-94.png */; };
@@ -42,7 +43,6 @@
 /* Begin PBXFileReference section */
 		11092C411831F5DA0060C652 /* UHealthCareEmblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UHealthCareEmblem.png; sourceTree = "<group>"; };
 		11092C431831F5E70060C652 /* DepartmentOfHealthEmblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DepartmentOfHealthEmblem.png; sourceTree = "<group>"; };
-		11092C451831F5F00060C652 /* MedicaidEmblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MedicaidEmblem.png; path = ../../../MedicaidEmblem.png; sourceTree = "<group>"; };
 		11092C471831F6030060C652 /* dwsEmblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dwsEmblem.png; sourceTree = "<group>"; };
 		11092C491831F6140060C652 /* socialSecurityEmblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socialSecurityEmblem.png; sourceTree = "<group>"; };
 		11092C5218327F4C0060C652 /* TB Clinic Meds (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TB Clinic Meds (1).png"; sourceTree = "<group>"; };
@@ -73,6 +73,8 @@
 		119099DE1831DCCE00695B26 /* IRCInternIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IRCInternIcon.png; sourceTree = "<group>"; };
 		119099E21831DD6700695B26 /* IRCInternIconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IRCInternIconSmall.png; path = ../IRCInternIconSmall.png; sourceTree = "<group>"; };
 		119099EC1831E72D00695B26 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		11D3C034184ED5C4007C8CEE /* MedicaidEmblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MedicaidEmblem.png; sourceTree = "<group>"; };
+		11D3C036184ED980007C8CEE /* SocialSecurity_Header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SocialSecurity_Header.png; sourceTree = "<group>"; };
 		11D99C94182F70EB00AE05F7 /* EIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EIC.png; sourceTree = "<group>"; };
 		11D99C96182F70F100AE05F7 /* dmv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dmv.png; sourceTree = "<group>"; };
 		11D99C98182F70F600AE05F7 /* I-94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "I-94.png"; sourceTree = "<group>"; };
@@ -99,8 +101,8 @@
 			children = (
 				11092C491831F6140060C652 /* socialSecurityEmblem.png */,
 				11092C471831F6030060C652 /* dwsEmblem.png */,
+				11D3C034184ED5C4007C8CEE /* MedicaidEmblem.png */,
 				11092C431831F5E70060C652 /* DepartmentOfHealthEmblem.png */,
-				11092C451831F5F00060C652 /* MedicaidEmblem.png */,
 				11092C411831F5DA0060C652 /* UHealthCareEmblem.png */,
 			);
 			name = Emblems;
@@ -111,6 +113,7 @@
 			children = (
 				11092C5418327F760060C652 /* welfareenrollment.png */,
 				11092C5618327F930060C652 /* healthclinicappt.png */,
+				11D3C036184ED980007C8CEE /* SocialSecurity_Header.png */,
 				11092C5818327F9F0060C652 /* employmentintake.png */,
 				11092C5218327F4C0060C652 /* TB Clinic Meds (1).png */,
 			);
@@ -309,13 +312,14 @@
 				119099E31831DD6700695B26 /* IRCInternIconSmall.png in Resources */,
 				11092C421831F5DA0060C652 /* UHealthCareEmblem.png in Resources */,
 				11092C441831F5E70060C652 /* DepartmentOfHealthEmblem.png in Resources */,
-				11092C461831F5F00060C652 /* MedicaidEmblem.png in Resources */,
 				11092C481831F6030060C652 /* dwsEmblem.png in Resources */,
 				11092C4A1831F6140060C652 /* socialSecurityEmblem.png in Resources */,
 				11092C5318327F4C0060C652 /* TB Clinic Meds (1).png in Resources */,
 				11092C5518327F760060C652 /* welfareenrollment.png in Resources */,
 				11092C5718327F930060C652 /* healthclinicappt.png in Resources */,
 				11092C5918327F9F0060C652 /* employmentintake.png in Resources */,
+				11D3C035184ED5C4007C8CEE /* MedicaidEmblem.png in Resources */,
+				11D3C037184ED980007C8CEE /* SocialSecurity_Header.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
