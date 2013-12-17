@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RecipeName</key>
+	<array>
+		<string>Buckwheat Dumplings</string>
+		<string>Aubergine Sauteed</string>
+		<string>Pumpkin Leaves</string>
+		<string>Tamayya</string>
+		<string>Ema Datshi</string>
+		<string>Fu Fu</string>
+		<string>Cassava Leaves</string>
+		<string>Beef Spinach Stew</string>
+		<string>Ngai Ngai &amp; Fish</string>
+	</array>
+	<key>ImageName</key>
+	<array>
+		<string>Dish1_Bhutan.png</string>
+		<string>Dish2_Bhutan.png</string>
+		<string>Dish1_Congo.png</string>
+		<string>Dish1_Sudan.png</string>
+		<string>Dish3_Bhutan.png</string>
+		<string>Dish2_Congo.png</string>
+		<string>Dish3_Congo.png</string>
+		<string>Dish2_Sudan.png</string>
+		<string>Dish4_Bhutan.png</string>
+		<string>Dish4_Congo.png</string>
+		<string>Dish5_Congo.png</string>
+	</array>
+	<key>CountryName</key>
+	<array>
+		<string>Bhutan</string>
+		<string>Bhutan</string>
+		<string>Congo</string>
+		<string>Sudan</string>
+		<string>Bhutan</string>
+		<string>Congo</string>
+		<string>Congo</string>
+		<string>Sudan</string>
+		<string>Bhutan</string>
+		<string>Congo</string>
+		<string>Congo</string>
+	</array>
+</dict>
+</plist>
